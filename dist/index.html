@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshop</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+  <div class="header-wrapper">
+    <header class="header container">
+      <span class="header__logo">Bookshop</span>
+      <nav class="header__menu">
+        <a href="#" class="menu__link menu__link_selected">Books</a>
+        <a href="#" class="menu__link">Audiobooks</a>
+        <a href="#" class="menu__link">Stationery & gifts</a>
+        <a href="#" class="menu__link">Blog</a>
+      </nav>
+      <nav class="header__control">
+        <a href="#" class="control__item user-btn"></a>
+        <a href="#" class="control__item search-btn"></a>
+        <a href="#" class="control__item cart-btn"><span class="cart-btn__count cart-btn__count_empty" id="cart-count"></span></a>
+      </nav>
+    </header>
+  </div>
+  <div class="banner container">
+    <div class="slider">
+      <div class="slider__images"></div>
+      <div class="slider__dots"></div>
+    </div>
+    <div class="banner__promo">
+      <a href="#" class="banner__link banner__link_blue">Change old book on new</a>
+      <a href="#" class="banner__link banner__link_pink">Top 100 books 2022</a>
+    </div>
+  </div>
+  <div class="content container">
+    <aside class="sidebar">
+      <nav class="categories">
+        <ul>
+          <li><a href="" class="categories__item categories__item_selected" data-category="Architecture">Architecture</a></li>
+          <li><a href="#" class="categories__item" data-category="Art">Art & Fashion</a></li>
+          <li><a href="#" class="categories__item" data-category="Biography & Autobiography">Biography</a></li>
+          <li><a href="#" class="categories__item" data-category="Business">Business</a></li>
+          <li><a href="#" class="categories__item" data-category="Hobbies">Crafts & Hobbies</a></li>
+          <li><a href="#" class="categories__item" data-category="Drama">Drama</a></li>
+          <li><a href="#" class="categories__item" data-category="Fiction">Fiction</a></li>
+          <li><a href="#" class="categories__item" data-category="Cooking">Food & Drink</a></li>
+          <li><a href="#" class="categories__item" data-category="Health & Fitness">Health & Wellbeing</a></li>
+          <li><a href="#" class="categories__item" data-category="History">History & Politics</a></li>
+          <li><a href="#" class="categories__item" data-category="Humor">Humor</a></li>
+          <li><a href="#" class="categories__item" data-category="Poetry">Poetry</a></li>
+          <li><a href="#" class="categories__item" data-category="Psychology">Psychology</a></li>
+          <li><a href="#" class="categories__item" data-category="Science">Science</a></li>
+          <li><a href="#" class="categories__item" data-category="Technology">Technology</a></li>
+          <li><a href="#" class="categories__item" data-category="Travel">Travel & Maps</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main">
+      <div id="product-list" class="products-list">
+
+      </div>
+      <button id="btn-load" class="btn btn_load">Load more</button>
+    </main>
+  </div>
+</body>
+</html>
